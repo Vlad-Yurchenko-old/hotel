@@ -1,0 +1,130 @@
+
+body > .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar {
+    background-color: #53d1c8;
+    color: white;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav li a:hover {
+    background-color: #a0d8d4;
+}
+
+.nav>li>a{
+    color: white;
+}
+
+.carousel-inner .item img {
+    height:100vh; 
+    width: 100%; 
+    object-fit: cover;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #a0d8d4;
+    background-color: #fff;
+}
+
+.carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    background-color: #a0d8d4;
+}
+
+.carousel-caption input {
+    margin-bottom: 20px;
+}
+
+.blackout {
+    position: absolute; 
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(83,209,200,.5); 
+    z-index: 1;
+}
+
+.carousel-text {
+    z-index: 10;
+    text-align: center;
+    color: #fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+
+
+@media (max-width:550px) {
+    .carousel-text h1 {
+        font-size: 60px;
+    }
+    .carousel-text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-height: 475px) {
+    .carousel-inner .item img {
+        height:120vh; 
+    }
+    .carousel-text {
+        top:40%;
+    }
+}
+
+@media (max-height: 350px) {
+    .carousel-inner .item img {
+        height:135vh; 
+    }
+}
+
+/******************************/
+
+.transparent-button {
+    background-color: transparent;
+}
+
+.white_button {
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid white;
+}
+
+.white_button:hover {
+    background-color: white;
+    color: #53d1c8;
+}
+
+.big-title {
+    color: white;
+    font-size: 80px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+/**********************************/
+
+.whyus {
+    position: relative;
+    height: 100vh;
+    background-image: url("../images/bed-bedroom-hostel-4217.jpg");
+    background-size: cover;
+}
